@@ -3,15 +3,59 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="estilo1.css">
+        <meta name="vie"
         <title>Aula 05</title>
     </head> 
     <body>
         <form method="get">
-            <label>Nome</label>
-            <input name="nome"
+            <fieldset>
+                <legend>Dados pessoais</legend>
+           
+            <label for: nome>Nome: </label>
+            <input name="nome" id= "nome" maxlength="30"
             type = "text"
-            placeholder="Digite aí desgraça">bk2
+            placeholder="Digite aí desgraça">
+            <br>
+            <label>Data</label>
+            
+            <input name="Nascimento"
+            type = "date"
+            placeholder="Agora seu nascimento, seu pardal">
+
+            <input name="Email"
+            type = "email"
+            placeholder="Agora seu nascimento, seu pardal">
+        
+            <input name="Idade"
+            type = "number"
+            placeholder="Agora sua idade, lerdão">
+        
+            <input name="Cor"
+            type = "color" id="cor">
+        </fieldset>
+        <fieldset>
+            <legend>Escolaridade</legend>
+            <input name = "escolaridade"
+            type = "radio" value = "fundamental">Fundamental>
+           
+            <input name = "escolaridade"
+            type = "radio" value = "médio">Médio>
+           
+            <input name = "escolaridade"
+            type = "radio" value = "superior">Superior>
+           
+            <input name = "escolaridade"
+            type = "radio" value = "pós">Pós-graduado>
+        </fieldset>
+        
+        <br>
+        <label for ="senha">Senha: </label>
+        <input type = "password" name = "senha" id = "senha" placeholder="Agora a senha, jegue">
+        <br>
+        <input type = "submit" value = "Manda isso aí mermo"> 
         </form>
     </body>
 </html>
+
